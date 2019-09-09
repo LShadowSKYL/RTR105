@@ -2,7 +2,7 @@
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade
 
 __Pirmā nodarbība__:
-
+```
 **Ctrl+Alt+T** - _Termināla atvēršna._
 **Ctrl+Shift+T** - _New Tab atvēršana Terminālī._
 **whoami** - _Kas es esmu? komanda Terminālī._
