@@ -1,6 +1,7 @@
 # RTR105
 Studiju kursa Datormācība (pamatkurss) elektroniskā klade
-__Pirmā nodarbība__
+__Pirmā nodarbība__:
+>
 **Ctrl+Alt+T** - Termināla atvēršna.
 **Ctrl+Shift+T** - New Tab atvēršana Terminālī.
 **whoami** - Kas es esmu? komanda Terminālī.
