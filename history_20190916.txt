@@ -1,71 +1,38 @@
     1  VirtualBox --startvm XP
     2  quartus
-    3  psd
-    4  touch
-    5  touch aaa.txt
-    6  ls
-    7  ls -l
-    8  touch -c -t 201909171000aaa.txt
-    9  touch -c -t 201909171000 aaa.txt
-   10  ls -l
-   11  cat aaa.txt
-   12  echo Hello World!
-   13  echo Hello World! > bbb.txt
-   14  ls -l;
-   15  cat bbb.txt
-   16  ls -l bbb.txt
-   17  echo Hello World again! > bbb.txt
+    3  firefox
+    4  psd
+    5  touch sss.txt
+    6  ls -l
+    7  pwd
+    8  nano MansPirmaisSkripts.sh
+    9  ls -l
+   10  rm aaa.txt
+   11  rm sss.txt
+   12  ls -l
+   13  cat MansPirmaisSkripts.sh
+   14  ls
+   15  whereis ls
+   16  whereis MansPirmaisSkripts.sh
+   17  ls
    18  ls -l
-   19  cat bbb.txt
-   20  echo Hello World again! >> bbb.txt
-   21  cat bbb.txt
-   22  ls -l
-   23  echo Hello World! > bbb.txt
-   24  cat bbb.txt
-   25  echo Hello World again! >> bbb.txt
-   26  cat bbb.txt
-   27  ls -l
-   28  echo -e "Hello\vWorld!" >> bbb.txt
-   29  cat bb.txt
-   30  cat bbb.txt
-   31  echo -e "Hello\vWorld!" > bbb.txt
-   32  cat bbb.txt
-   33  echo Hello World! > bbb.txt
-   34  echo Hello World again! >> bbb.txt
-   35  echo -e "Hello\vWorld!" > ccc.txt
-   36  cat ccc.txt
-   37  ls -l /bin/bash
-   38  ls -l /bin/ls
-   39  cat  /bin/ls
-   40  cat bbb.txt
-   41  cat bbb.txt > bbb1.txt
-   42  ls -l
-   43  cat bbb1.txt
-   44  cp bbb.txt bbb2.txt
-   45  cat bbb2.txt
-   46  ls -l *.txt
-   47  ls -l b*.txt
-   48  cd /
-   49  pwd
-   50  pw
-   51  mv ~/bbb2.txt ~/Music/d10.tx
-   52  cd
-   53  ls
-   54  ls -l Music?
-   55  ls -l Music/
-   56  cat /home/user/Music/d10.tx
-   57  mv bbb1.txt e7.xtx
-   58  ls
-   59  ls -l e7.xtx
-   60  em aaa.txt
-   61  rm aaa.txt
-   62  ls -l
-   63  ls -l *.*xt*
-   64  rm *.*xt*
-   65  ls -l
-   66  rm ./Music/d10.tx
-   67* ls 
-   68  ls ./Music/
-   69  ls -l
-   70  history
-   71  history > history_20190916.txt
+   19  ls -l /bin/ls
+   20  ./MansPirmaisSkripts.sh
+   21  echo $PATH
+   22  PATH=$PATH:~
+   23  echo $PATH
+   24  MansPirmaisSkripts.sh
+   25  whereis MansPirmaisSkripts.sh
+   26  ls -l MansPirmaisSkripts.sh
+   27  chmod 740 MansPirmaisSkripts.sh
+   28  ls -l MansPirmaisSkripts.sh 
+   29  MansPirmaisSkripts.sh 
+   30  nano MansPirmaisSkripts.sh
+   31  MansPirmaisSkripts.sh
+   32  ls -l
+   33  cat log.txt
+   34  cat error.txt
+   35  cat z100.txt
+   36  nano MansPirmaisSkripts.sh
+   37  history
+   38  history > history_20190916.txt
