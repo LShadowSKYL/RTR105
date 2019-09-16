@@ -20,5 +20,14 @@ cd . - Solis uz vietas.
 cd .. - Pāriešana, piemēram, no sadaļas /home/user uz sadaļu /home.
 cd _vai_ cd home/user - Atgriešanās atpakaļ uz sākuma sadaļu.
 history - Atvērt komandu vēsturi.
+__```
+**Otrā nodarbība**:
+_**```
+touch "aaa.txt" - Izveidot failu ar nosaukumu aaa.txt.
+touch -c -t 201909171000 aaa.txt - Pamainīt faila izveidošanas datumu. 
+cat aaa.txt - Lasīt failu.
+echo Hello World! > bbb.txt - Izveidot failu kurā rakstīts teksts "Hello World".
+echo Hello World again! >> bbb.txt - Pievienot norādītajam failam tekstu.
+echo -e "Hello\vWorld!" >> bbb.txt - Pievienot tekstu ar modifikāciju "\v" nozīmē pārnesi jaunā rindā.
+ls -l /bin/bash - apskatīt failu.
 
-__Otrā nodarbība__:
