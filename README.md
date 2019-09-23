@@ -32,3 +32,4 @@ echo -e "Hello\vWorld!" >> bbb.txt - Pievienot tekstu ar modifikāciju "\v" noz�
 ls -l /bin/bash - apskatīt failu.
 nano MansPirmaisSkripts.sh - Izveidot skriptu.
 rm aaa.txt - Dzēst failu ar nosaukumu "aaa.txt".
+_**```
