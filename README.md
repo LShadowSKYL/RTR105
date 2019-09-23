@@ -22,7 +22,7 @@ cd _vai_ cd home/user - Atgriešanās atpakaļ uz sākuma sadaļu.
 history - Atvērt komandu vēsturi.
 __```
 **Otrā nodarbība**:
-_**```
+**```
 touch "aaa.txt" - Izveidot failu ar nosaukumu aaa.txt.
 touch -c -t 201909171000 aaa.txt - Pamainīt faila izveidošanas datumu. 
 cat aaa.txt - Lasīt failu.
@@ -32,4 +32,4 @@ echo -e "Hello\vWorld!" >> bbb.txt - Pievienot tekstu ar modifikāciju "\v" noz�
 ls -l /bin/bash - apskatīt failu.
 nano MansPirmaisSkripts.sh - Izveidot skriptu.
 rm aaa.txt - Dzēst failu ar nosaukumu "aaa.txt".
-_**```
+**```
