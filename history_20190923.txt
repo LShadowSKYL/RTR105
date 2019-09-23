@@ -3,41 +3,149 @@
     3  ls
     4  L
     5  ls -l
-    6  git clone https://github.com/LShadowSKYL/RTR105
-    7  ls
-    8  ls -l
-    9  cd RTR105
-   10  nano git-upload
-   11  ls
-   12  cd
-   13  cd RTR105
+    6  pwd
+    7  mkdir darbi
+    8  cd darbi
+    9  pwd
+   10  nano elementary.c
+   11  ls -l
+   12  cat elementary.c 
+   13  gcc elementary.c 
    14  ls -l
-   15  nano git-upload
-   16  chmod 755 git-udload
-   17  chmod 755 git-upload
-   18  hictory
-   19  history
-   20  history > history_20190923.txt
+   15  nano elementary.c
+   16  cat elementary.c 
+   17  gcc elementary.c -o prg1
+   18  ls -l
+   19  ./prg1
+   20  nano elementary.c
    21  ls -l
-   22  git-upload
-   23  echo #PATH
-   24  git-upload
-   25  echo $PATH
+   22  gcc elementary.c -o prg2
+   23  ls -l
+   24  nano elementary.c
+   25  gcc elementary.c -o prg3
    26  ls -l
-   27  ./git-upload 
-   28  nano git-upload
-   29  ./git-upload 
-   30  cat git-upload 
-   31  ./git-upload a b
-   32  ./git-upload 20190923_15_15
-   33  ls -l
-   34  ls darbi/
-   35  cd darbi/
-   36  ls -l
-   37  rm prg*
+   27  cp elementary.c hello.c
+   28  nano hello.c 
+   29  gcc hello.c -o prg4
+   30  nano hello.c 
+   31  gcc hello.c -o prg4
+   32  nano hello.c 
+   33  gcc hello.c -o prg4
+   34  ls -l
+   35  ./prg4
+   36  nano hello.c 
+   37  gcc hello.c -o prg5
    38  ls -l
-   39  rm a.out 
-   40  ls -l
-   41  cd ..
-   42  ls -l
-   43  history > history_20190923.txt
+   39* 
+   40  nano hello.c 
+   41  cp hello.c 02.c
+   42  nano 02.c
+   43  ls -l
+   44  gcc 02.c -o prg5
+   45  cp hello.c 02.c
+   46  nano 02.c
+   47  gcc 02.c -o prg5
+   48  nano 02.c
+   49  gcc 02.c -o prg5
+   50  nano 02.c
+   51  gcc 02.c -o prg5
+   52  nano 02.c
+   53  gcc 02.c -o prg5
+   54  ls -l
+   55  ./prg5
+   56  cp 02.c hello.c
+   57  nano hello.c
+   58  nano 02.c
+   59  rm prg*
+   60  ls -l
+   61  nano 02.c
+   62  ./prg5
+   63  ./02.c
+   64  gcc 02.c -o prg5
+   65  ./prg5
+   66  nano 02.c
+   67  rm prg*
+   68  ls -l
+   69  nano 02.c
+   70  gcc 02.c -o prg5
+   71  ./prg5
+   72  nano 02.c
+   73  gcc 02.c -o prg5
+   74  ./prg5
+   75  nano 02.c
+   76  gcc 02.c -o prg5
+   77  ./prg5
+   78  nano 02.c
+   79  rm prg5 
+   80  ls -l
+   81  nano 02.c
+   82  gcc 02.c -o ksk
+   83  ./ksk
+   84  nano 02.c
+   85* gcc 02.c -o ks\
+   86  ./ksk
+   87  nano 02.c
+   88  gcc 02.c -o ksk
+   89  ./ksk
+   90  nano 02.c
+   91  gcc 02.c -o ksk
+   92  nano 02.c
+   93  ./ksk
+   94  nano 02.c
+   95  gcc 02.c -o ksk
+   96  ./ksk
+   97  nano 02.c
+   98  gcc 02.c -o ksk
+   99  ./ksk
+  100  nano 02.c
+  101  gcc 02.c -o ksk
+  102  ./ksk
+  103  nano 02.c
+  104  gcc 02.c -o ksk
+  105  ./ksk
+  106  nano 02.c
+  107  gcc 02.c -o ksk
+  108  ./ksk
+  109  gcc 02.c -o ksk
+  110  ./ksk
+  111  nano 02.c
+  112  gcc 02.c -o ksk
+  113  ./ksk
+  114  nano 02.c
+  115  gcc 02.c -o ksk
+  116  ./ksk
+  117  nano 02.c
+  118  gcc 02.c -o ksk
+  119  ./ksk
+  120  nano 02.c
+  121  gcc 02.c -o ksk
+  122  ./ksk
+  123  nano 02.c
+  124  gcc 02.c -o ksk
+  125  ./ksk
+  126  nano 02.c
+  127  gcc 02.c -o ksk
+  128  ./ksk
+  129  nano 02.c
+  130  gcc 02.c -o ksk
+  131  ./ksk
+  132  cp hello.c 03.c
+  133  nano 03c
+  134  nano 03.c
+  135  ls -l
+  136  nano 03.c
+  137  gcc 03.c -o fff
+  138  ./fff
+  139  nano 03.c
+  140  gcc 03.c -o fff
+  141  ./fff
+  142  nano 03.c
+  143  gcc 03.c -o fff
+  144  ./fff
+  145  ls -l
+  146  rm fff
+  147  rm ksk
+  148  ls -l
+  149  cd ..
+  150  ls -l
+  151  history > history_20190923.txt
