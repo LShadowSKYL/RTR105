@@ -1,0 +1,43 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls
+    4  L
+    5  ls -l
+    6  git clone https://github.com/LShadowSKYL/RTR105
+    7  ls
+    8  ls -l
+    9  cd RTR105
+   10  nano git-upload
+   11  ls
+   12  cd
+   13  cd RTR105
+   14  ls -l
+   15  nano git-upload
+   16  chmod 755 git-udload
+   17  chmod 755 git-upload
+   18  hictory
+   19  history
+   20  history > history_20190923.txt
+   21  ls -l
+   22  git-upload
+   23  echo #PATH
+   24  git-upload
+   25  echo $PATH
+   26  ls -l
+   27  ./git-upload 
+   28  nano git-upload
+   29  ./git-upload 
+   30  cat git-upload 
+   31  ./git-upload a b
+   32  ./git-upload 20190923_15_15
+   33  ls -l
+   34  ls darbi/
+   35  cd darbi/
+   36  ls -l
+   37  rm prg*
+   38  ls -l
+   39  rm a.out 
+   40  ls -l
+   41  cd ..
+   42  ls -l
+   43  history > history_20190923.txt
