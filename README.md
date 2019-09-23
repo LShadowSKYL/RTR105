@@ -30,4 +30,5 @@ echo Hello World! > bbb.txt - Izveidot failu kurā rakstīts teksts "Hello World
 echo Hello World again! >> bbb.txt - Pievienot norādītajam failam tekstu.
 echo -e "Hello\vWorld!" >> bbb.txt - Pievienot tekstu ar modifikāciju "\v" nozīmē pārnesi jaunā rindā.
 ls -l /bin/bash - apskatīt failu.
-
+nano MansPirmaisSkripts.sh - Izveidot skriptu.
+rm aaa.txt - Dzēst failu ar nosaukumu "aaa.txt".
