@@ -1,22 +1,31 @@
 #include<stdio.h>
-
+#include <time.h>
 void main()
  {
- int number1, number2;
- printf("Cienījamais lietotāj, lūdzu, ievadi 1. skaitli: ");
- scanf("%d",&number1);
- printf("Cienījamais lietotāj, lūdzu, ievadi 2. skaitli: ");
- scanf("%d",&number2);
-
- if (number1 > number2)
-  {
-  printf("Tavs 1. skaitlis %d ir > nekā 2. skaitlis %d\n",number1,number2);
-  printf("Prētēji var būt divi gadījumi vai 1. < 2. vai 1. == 2.\n");
-  }
+ int number;
+ clock_t start_t, end_t, total_t;
+ printf("Cienījamais lietotāj, lūdzu, ievadi skaitli: ");
+ scanf("%d",&number);
+ start_t = clock();
+ if((number%2)==0)
+  printf("Tavs skaitlis %d ir pāru skaitlis\n",number);
  else
-  {
-  //printf("Tavs 1. skaitlis %d ir < nekā 2. skaitlis %d\n",number1,number2);
-  printf("Tavs 1. skaitlis ir vai nu < nekā 2. skaitlis\n");
-  printf("vai nu tavs 1. skaitlis ir == ar 2. skaitli\n");
-  }
+  printf("Tavs skaitlis %d ir nepāru skaitlis\n",number);
+ end_t = clock();
+// total_t = (double)(end_t - start_t) / CLOCKS_PER_SEC;
+ printf("Aprēķins ar %c un ar ==0 aizņema no %ld līdz %ld -> %ld\n",37,start_t,end_t,end_t-start_t);
+ start_t = clock();
+ if( number%2 )
+  printf("Tavs skaitlis %d ir nepāru skaitlis\n",number);
+ else
+  printf("Tavs skaitlis %d ir pāru skaitlis\n",number);
+ end_t = clock();
+ printf("Aprēķins ar %c bez ==0 aizņema no %ld līdz %ld -> %ld\n",37,start_t,end_t,end_t-start_t);
+ start_t = clock();
+ if( (number<<31)>>31 )
+  printf("Tavs skaitlis %d ir nepāru skaitlis\n",number);
+ else
+  printf("Tavs skaitlis %d ir pāru skaitlis\n",number);
+ end_t = clock();
+ printf("Aprēķins ar << un >> aizņema no %ld līdz %ld -> %ld\n",start_t,end_t,end_t-start_t);
  }
