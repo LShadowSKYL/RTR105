@@ -1,22 +1,20 @@
 #include<stdio.h>
-
 void main()
  {
- int number1, number2;
- printf("Cienījamais lietotāj, lūdzu, ievadi 1. skaitli: ");
- scanf("%d",&number1);
- printf("Cienījamais lietotāj, lūdzu, ievadi 2. skaitli: ");
- scanf("%d",&number2);
-
- if (number1 > number2)
-  {
-  printf("Tavs 1. skaitlis %d ir > nekā 2. skaitlis %d\n",number1,number2);
-  printf("Prētēji var būt divi gadījumi vai 1. < 2. vai 1. == 2.\n");
-  }
+ int number;
+ printf("Cienījamais lietotāj, lūdzu, ievadi skaitli: ");
+ scanf("%d",&number);
+ //if( (number%2)=0 )//viena vienadības zīme - tā ir piešķiršanas operācija!
+ if((number%2)==0)
+  printf("Tavs skaitlis %d ir pāru skaitlis\n",number);
  else
-  {
-  //printf("Tavs 1. skaitlis %d ir < nekā 2. skaitlis %d\n",number1,number2);
-  printf("Tavs 1. skaitlis ir vai nu < nekā 2. skaitlis\n");
-  printf("vai nu tavs 1. skaitlis ir == ar 2. skaitli\n");
-  }
+  printf("Tavs skaitlis %d ir nepāru skaitlis\n",number);
+
+ int remainder=number%2;
+// if(remainder=0)//vērtības piešķiršanu mainīgajam vienmēr var izpildīt
+// tāpēc pēc būtības te ir rakstīts if(1) - un atbilde vienmēr būs "nepāru"
+ if(remainder==0)
+  printf("Tavs skaitlis %d ir pāru skaitlis\n",number);
+ else
+  printf("Tavs skaitlis %d ir nepāru skaitlis\n",number);
  }
